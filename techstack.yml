@@ -1,0 +1,168 @@
+repo_name: hakanai/subversion-plugin
+report_id: 7c4ca2f333b8ec4e41cc48d9657302cd
+version: 0.1
+repo_type: Public
+timestamp: '2024-02-11T01:35:32+00:00'
+requested_by: jglick
+provider: github
+branch: master
+detected_tools_count: 12
+tools:
+- name: Groovy
+  description: A multi-faceted language for the Java platform
+  website_url: https://groovy-lang.org/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/997/default_7ff5fcd857f42ad25149f659693d8930bffddf14.png
+  detection_source_url: https://github.com/hakanai/subversion-plugin
+  detection_source: Repo Metadata
+- name: Java
+  description: A concurrent, class-based, object-oriented, language specifically designed
+    to have as few implementation dependencies as possible
+  website_url: https://www.java.com
+  open_source: true
+  hosted_saas: false
+  category: Languages & Frameworks
+  sub_category: Languages
+  image_url: https://img.stackshare.io/service/995/K85ZWV2F.png
+  detection_source_url: https://github.com/hakanai/subversion-plugin
+  detection_source: Repo Metadata
+- name: MapD
+  description: Open source GPU-Powered Database
+  website_url: https://www.mapd.com/
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Data Stores
+  sub_category: Databases
+  image_url: https://img.stackshare.io/service/6915/preview.png
+  detection_source_url: https://github.com/hakanai/subversion-plugin/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: kohsuke
+  last_updated_on: 2009-06-16 00:32:22.000000000 Z
+- name: Git
+  description: Fast, scalable, distributed revision control system
+  website_url: http://git-scm.com/
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Version Control System
+  image_url: https://img.stackshare.io/service/1046/git.png
+  detection_source_url: https://github.com/hakanai/subversion-plugin
+  detection_source: Repo Metadata
+- name: JUnit
+  description: A programmer-oriented testing framework for Java
+  website_url: http://junit.org/
+  version: '4.11'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2020/874086.png
+  detection_source_url: https://github.com/hakanai/subversion-plugin/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: kohsuke
+  last_updated_on: 2009-06-16 00:32:22.000000000 Z
+- name: Jenkins
+  description: An extendable open source continuous integration server
+  website_url: http://jenkins-ci.org/
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Continuous Integration
+  image_url: https://img.stackshare.io/service/670/jenkins.png
+  detection_source_url: https://github.com/hakanai/subversion-plugin/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Jesse Glick
+  last_updated_on: 2017-02-28 20:47:45.000000000 Z
+- name: Mockito
+  description: Tasty mocking framework for unit tests in Java
+  website_url: https://site.mockito.org/
+  version: 1.9.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Build, Test, Deploy
+  sub_category: Testing Frameworks
+  image_url: https://img.stackshare.io/service/2021/4y634TJm_400x400.jpg
+  detection_source_url: https://github.com/hakanai/subversion-plugin/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Stephen Connolly
+  last_updated_on: 2013-08-07 13:21:58.000000000 Z
+- name: junit:junit
+  description: JUnit is a unit testing framework for Java
+  version: '4.11'
+  license: EPL-1.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/subversion-plugin/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Christoph Kutzinski
+  last_updated_on: 2012-12-16 11:22:55.000000000 Z
+  vulnerabilities:
+  - name: TemporaryFolder on unix-like systems does not limit access to created files
+    cve_id: CVE-2020-15250
+    cve_url: https://github.com/advisories/GHSA-269g-pwp5-87pp
+    detected_date: Aug 22
+    severity: moderate
+    first_patched: 4.13.1
+- name: org.mockito:mockito-core
+  description: Mockito mock objects library core API and implementation
+  version: 1.9.5
+  license: MIT
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/subversion-plugin/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Jesse Glick
+  last_updated_on: 2017-02-28 20:47:45.000000000 Z
+- name: org.powermock:powermock-api-mockito
+  description: PowerMock API for Mockito 1.+.
+  version: '1.5'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/subversion-plugin/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Jesse Glick
+  last_updated_on: 2017-03-01 20:52:04.000000000 Z
+- name: org.powermock:powermock-module-junit4
+  description: PowerMock support module for JUnit 4.x
+  version: '1.5'
+  license: Apache-2.0
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/subversion-plugin/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Jesse Glick
+  last_updated_on: 2017-02-28 20:47:45.000000000 Z
+- name: org.tmatesoft.svnkit:svnkit
+  description: Pure Java Subversion Library
+  version: 1.8.14
+  license: TMate
+  open_source: true
+  hosted_saas: false
+  category: Libraries
+  sub_category: Maven Packages
+  image_url: https://img.stackshare.io/package/maven/image.png
+  detection_source_url: https://github.com/hakanai/subversion-plugin/blob/master/pom.xml
+  detection_source: pom.xml
+  last_updated_by: Jesse Glick
+  last_updated_on: 2017-02-28 20:47:45.000000000 Z
